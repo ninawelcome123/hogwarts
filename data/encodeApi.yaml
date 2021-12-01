@@ -1,0 +1,23 @@
+tests:
+- "case": "测试base64解密"
+  "http":
+    "method": "get"
+    "url": "http://127.0.0.1:9999/key.txt"
+    "headers":
+    "encryption": "base64"
+  "expected":
+    "topics":
+        "orange": "movie"
+        "school": "testing-studio"
+        "president": "seveniruby"
+- "case": "测试base64解密2222222"
+  "http":
+    "method": "get"
+    "url": "http://127.0.0.1:9999/key.txt"
+    "headers":
+    "encryption": "base64"
+  "expected":
+    "topics":
+        "orange": "movie"
+        "school": "testing-studio"
+        "president": "seveniruby"
